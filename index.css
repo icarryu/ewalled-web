@@ -1,0 +1,58 @@
+body {
+    font-family: "Open Sans";
+    background-color: #FAFBFD;
+    margin: 0;
+}
+
+p {
+    margin: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    height: 40px
+}
+
+.nav-link {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+.greeting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 80px;
+    align-items: center;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    border: 5px solid #0061ff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: fill;
+    overflow: hidden;
+}
